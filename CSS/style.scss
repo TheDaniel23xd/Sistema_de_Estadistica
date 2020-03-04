@@ -7,9 +7,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  height: 100%;
-  width: 100%;
-
+background-color: #60a3bc;
 }
 .sidebar {
   position: fixed;
@@ -31,7 +29,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 65px;
+  line-height: 60px;
   font-size: 20px;
   color: white;
   padding-left: 40px;
@@ -85,11 +83,4 @@ label #cancel{
 }
 #check:checked ~ section{
   margin-left: 250px;
-}
-section{
-  background: url(/IMG/bg.jpeg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  transition: all .5s;
 }
